@@ -63,7 +63,11 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #18BBD5;
+}
+
+#about hr.star-light:after {
+    background-color: #79b697;
 }
 
 hr.star-primary {
@@ -151,6 +155,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	background-color: #495f6d;
 }
 
 .navbar a:focus {
@@ -181,7 +186,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #79b697;
 }
 
 @media(max-width:767px) {
@@ -344,7 +349,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #233140;
+    background-color: #495f6d;
 }
 
 .btn-social {
@@ -383,6 +388,10 @@ footer .footer-below {
 
 .scroll-top .btn:focus {
     outline: 0;
+}
+
+.btn-success {
+	background-color: #79b697;
 }
 
 .portfolio-modal .modal-content {
